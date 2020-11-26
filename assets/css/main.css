@@ -1,0 +1,59 @@
+.page-header {
+	padding: 60px;
+	text-align: center;
+	background-image: url("https://images.eurogamer.net/2020/articles/2020-05-27-10-41/i9Z4B1184241_2825090.jpg");
+	color: white;
+	font-size: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	background-color: #090F12;
+	font-family: 'Poppins', sans-serif;
+}
+
+.card {
+	background-color: #343A40;
+	color: white;
+	border-radius:15px;
+}
+
+.breadcrumb {
+	background-color: #343A40;
+	border-radius:15px;
+}
+
+.carousel-inner {
+	border-radius:15px;
+}
+
+.carduyuru {
+	background-color: #343A40;
+	color: white;
+	height: auto;
+	border-radius:15px;
+}
+
+.cardkredi {
+	background-color: #343A40;
+	color: white;
+	height: 400px;
+	border-radius:15px;
+}
+
+.dexc {
+	background-color: #343A40;
+	color: white;
+}
+
+.donpic {
+	width: 200px;
+	height: 200px;
+	transition: all 3s ease-in-out;
+	cursor: pointer;
+}
+.donpic:hover {
+	transform: rotate(3600deg);
+	-webkit-transform: rotate(3600deg);
+	}**

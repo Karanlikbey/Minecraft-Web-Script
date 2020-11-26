@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+	<title>Minecraft Web Script</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/css/kayit-ol.css">
+
+</head>
+
+<body>
+	<div class="page-header">
+		<h3>Minecraft Web Script</h3>
+	</div>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"><i class="fas fa-home"></i> AnaSayfa</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/magaza/magaza.html"><i class="fas fa-shopping-cart"></i> Mağaza</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-lira-sign"></i> Kredi
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#"><i class="fas fa-share"></i> Kredi Yükle</a>
+						<a class="dropdown-item" href="#"><i class="fas fa-share"></i> Kredi Gönder</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-ticket-alt"></i> Destek</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/indir/indir.html"><i class="fas fa-download"></i> İndir</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/panel/giris.html"><i class="fas fa-sign-in-alt"></i> Giriş Yap</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/panel/kayit.html"><i class="fas fa-user-plus"></i> Kayıt Ol</a>
+				</li>
+			</ul>
+		</div>
+		<div class="ml-auto order-0">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+	</nav>
+
+	<br>
+
+
+	<br>
+	<div class="container">
+		<ul class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Kayıt Ol</a></li>
+			<li class="breadcrumb-item active">Kayıt</li>
+		</ul>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<div class="card">
+					<div class="card-header">
+						Kayıt Ol
+					</div>
+					<div class="card-body">
+						<form action="" method="post">
+							<div class="form-group">
+								<input type="text" class="form-control" name="username" placeholder="Kullanıcı Adı"
+									value="">
+							</div>
+							<div class="form-group">
+								<input type="mail" class="form-control" name="mail" placeholder="E-Posta Adresi">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" name="sorun" placeholder="Güvenlik Sorun"
+									value="">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" name="password" placeholder="Şifre">
+							</div>
+							<div class="form-group custom-control custom-checkbox">
+								<div class="row">
+									<div class="col">
+										<input type="checkbox" id="rememberMe" class="custom-control-input"
+											name="rememberMe">
+										<label for="rememberMe" class="custom-control-label" name="rememberMe">Sunucu <a
+												href="kurallar.html">kurallarını</a> okudum kabul ediyorum!</label>
+									</div>
+								</div>
+							</div>
+							<input type="hidden">
+							<button type="submit" class="theme-color btn btn-primary w-100" name="login">Kayıt
+								Ol</button>
+						</form>
+					</div>
+					<div class="card-footer text-center">
+						Oyuncu Hesabın mı var?
+						<a href="/girisyap/girisyap.html">Giriş Yap</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+	<footer class="page-footer font-small unique-color-dark" style="color: white;">
+
+		<div style="background-color: #007BFF;">
+			<div class="container">
+
+				<div class="row py-4 d-flex align-items-center">
+
+					<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+						<h6 class="mb-0">Sosyal medya hesaplarımızı takip et!</h6>
+					</div>
+
+					<div class="col-md-6 col-lg-7 text-center text-md-right">
+
+						<a class="fb-ic" style="color: white;">
+							<i class="fab fa-facebook-f white-text mr-4"> </i>
+						</a>
+						<a class="tw-ic" style="color: white;">
+							<i class="fab fa-twitter white-text mr-4"> </i>
+						</a>
+						<a class="ins-ic" style="color: white;">
+							<i class="fab fa-instagram white-text"> </i>
+						</a>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="container text-center text-md-left mt-5">
+
+			<div class="row mt-3">
+				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+					<h6 class="text-uppercase font-weight-bold">Sunucu Adın</h6>
+					<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+					<p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+						consectetur
+						adipisicing elit.</p>
+
+				</div>
+				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+					<h6 class="text-uppercase font-weight-bold">Genel</h6>
+					<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+					<p>
+						<a href="/magaza/magaza.html">Mağaza</a>
+                    </p>
+                    <p>
+                        <a href="#!">Kredi Yükle</a>
+                    </p>
+                    <p>
+                        <a href="#!">Destek</a>
+                    </p>
+                    <p>
+                        <a href="/indir/indir.html">İndir</a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Kullanıcı</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="/panel/giris.html">Giriş Yap</a>
+                    </p>
+                    <p>
+                        <a href="/panel/kayit.html">Kayıt Ol</a>
+                    </p>
+                    <p>
+                        <a href="#!">Sunucu Durumu</a>
+                    </p>
+                    <p>
+                        <a href="#!">S.S.S</a>
+                    </p>
+
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">İletişim</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Adresin, Şehirin, Posta Kodun</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> eposta@adresin.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> Telefon Numaran</p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i> Müşteri Hizmetleri</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://github.com/kemalettinbas"> github.com/kemalettinbas</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
